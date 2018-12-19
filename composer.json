@@ -1,0 +1,23 @@
+{
+  "name": "dwenzel/conductor-bundle",
+  "description": "Test project bundle for conductor composer plugin",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Dirk Wenzel",
+      "email": "der-wenzel@gmx.de"
+    }
+  ],
+  "require-dev": {
+    "cpsit/conductor": "dev-develop",
+    "phpunit/phpunit": "^7.0.0",
+    "composer/composer": "^1.8"
+  },
+
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:CPS-IT/conductor.git"
+    }
+  ]
+}
