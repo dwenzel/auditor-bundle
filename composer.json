@@ -1,6 +1,6 @@
 {
-  "name": "dwenzel/conductor-bundle",
-  "description": "Test project bundle for conductor composer plugin",
+  "name": "dwenzel/auditor-bundle",
+  "description": "Test project bundle for auditor composer plugin",
   "type": "project",
   "authors": [
     {
@@ -9,7 +9,7 @@
     }
   ],
   "require-dev": {
-    "cpsit/conductor": "dev-develop",
+    "cpsit/auditor": "dev-develop",
     "phpunit/phpunit": "^7.0.0",
     "composer/composer": "^1.8"
   },
@@ -17,7 +17,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@github.com:CPS-IT/conductor.git"
+      "url": "git@github.com:CPS-IT/auditor.git"
     }
   ]
 }
